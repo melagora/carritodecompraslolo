@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Pasantía Evaluativa – Case Study: Mejora de la Página de cierto Carrito de Compras.
 
-## Getting Started
+**Objetivo:** Evaluar la capacidad de análisis, creatividad y desarrollo web a través de una propuesta de mejora de cierto carrito de compras.
 
-First, run the development server:
+### Propuesta de mejora:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Propósito:** Mejorar el carrito de compras de acuerdo a tu criterio.
+- Se desarrollo una nueva versión de la página del carrito.
+- El resultado esta desarrollado en TypeScript y se utiliza frameworks como React, Next.js y Tailwind.
+- No es funcional (no conecta con bases de datos ni procesa pagos pero si tiene la logica para trabajar a futuro (escalable con componentes)).
+- Solo se desarrollo la página completa del carrito, no otras partes del sitio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Desarrollo del Proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Planificación:** Se comenzó con un análisis profundo de la página actual del carrito de compras. Esto incluyó la identificación de las áreas de mejora, como la organización visual, la usabilidad y la funcionalidad.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> Carrito de compras actual:
 
-## Learn More
+![image](https://github.com/user-attachments/assets/25cc09df-2baa-4838-9b58-09ba0df8ad2d)
 
-To learn more about Next.js, take a look at the following resources:
+- **Desarrollo del Rediseño:** Se creó un diseño visual basado en las mejores prácticas de UX/UI, utilizando React y TailwindCSS para estructurar la interfaz y aplicar los estilos.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> Diseño al que se queria llegar (si se llegó):
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![image](https://github.com/user-attachments/assets/07b7aee0-692d-4560-9ae7-07b3d1fb9377)
 
-## Deploy on Vercel
+- **Implementación de Componentes:** El desarrollo de los componentes fue realizado de manera incremental. Primero se crearon los componentes básicos como el ResumenPedido y ProductosCarrito, y luego se integraron con el resto de la interfaz.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Pruebas y Ajustes:** Tras completar el desarrollo, se realizaron pruebas interactivas para garantizar que la experiencia de usuario fuera fluida y sin errores. Los ajustes se hicieron de acuerdo con los comentarios recibidos durante las pruebas.
