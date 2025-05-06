@@ -28,4 +28,4 @@
 
 - **Pruebas y Ajustes:** Tras completar el desarrollo, se realizaron pruebas interactivas para garantizar que la experiencia de usuario fuera fluida y sin errores. Los ajustes se hicieron de acuerdo con los comentarios recibidos durante las pruebas.
 
-[Ver diseño actual y rediseño FIGMA completo](https://www.figma.com/design/gaU8XekbU2vQ13bUMonSsQ/Carrito-de-compras-LOLO?node-id=0-1&t=pwOgVEZjtTa8Pu2p-1)
+#[Ver diseño actual y rediseño FIGMA completo](https://www.figma.com/design/gaU8XekbU2vQ13bUMonSsQ/Carrito-de-compras-LOLO?node-id=0-1&t=pwOgVEZjtTa8Pu2p-1)
