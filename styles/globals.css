@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Estilos para navegadores WebKit como Chrome, Edge y Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo de la pista */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff5100; /* Color del "scroll" (verde Tailwind: green-600) */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c36100; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Estilos para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ff5100 #f1f1f1;
+}
